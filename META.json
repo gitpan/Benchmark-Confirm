@@ -3,39 +3,20 @@
    "author" : [
       "Dai Okabayashi <bayashi@cpan.org>"
    ],
-   "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.0.53",
-   "license" : "perl_5",
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4005, CPAN::Meta::Converter version 2.130880",
+   "license" : [
+      "perl_5"
+   ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : "2"
    },
    "name" : "Benchmark-Confirm",
-   "no_index" : {
-      "directory" : [
-         "t",
-         "xt",
-         "inc",
-         "share",
-         "eg",
-         "examples"
-      ]
-   },
    "prereqs" : {
       "configure" : {
          "requires" : {
-            "CPAN::Meta" : "0",
-            "CPAN::Meta::Prereqs" : "0",
             "Module::Build" : "0.38"
-         }
-      },
-      "develop" : {
-         "requires" : {
-            "Pod::Wordlist::hanekomu" : "0",
-            "Test::CPAN::Meta" : "0",
-            "Test::MinimumVersion" : "0.10108",
-            "Test::Pod" : "1.41",
-            "Test::Spelling" : "0"
          }
       },
       "runtime" : {
@@ -49,19 +30,17 @@
    "provides" : {
       "Benchmark::Confirm" : {
          "file" : "lib/Benchmark/Confirm.pm",
-         "version" : "0.22"
+         "version" : "0.03"
       }
    },
    "release_status" : "stable",
    "resources" : {
-      "bugtracker" : {
-         "web" : "https://github.com/bayashi/Benchmark-Confirm/issues"
-      },
-      "homepage" : "https://github.com/bayashi/Benchmark-Confirm",
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ],
       "repository" : {
-         "url" : "git://github.com/bayashi/Benchmark-Confirm.git",
-         "web" : "https://github.com/bayashi/Benchmark-Confirm"
+         "url" : "http://github.com/bayashi/Benchmark-Confirm"
       }
    },
-   "version" : "0.22"
+   "version" : "0.03"
 }

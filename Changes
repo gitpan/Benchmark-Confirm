@@ -1,5 +1,18 @@
 Revision history for Perl extension Benchmark::Confirm
 
+0.03    Tue May 28 07:33:48 JST 2013
+    [BUG FIX]
+        - call import method with loading Test::More
+    [ENHANCEMENT]
+        - added coveralls.io badge
+        - include META.json in git repository
+        - added configure_requires in Build.PL
+        - fixed version number
+
+0.23 Tue May 28 06:38:09 JST 2013
+    [NO CODE CHANGES]
+        - Switch back to Module::Build
+
 0.22 2013-04-13T10:55:58Z
     [NO CODE CHANGES]
         - released by Minilla
