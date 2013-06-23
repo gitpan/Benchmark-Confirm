@@ -1,5 +1,9 @@
 Revision history for Perl extension Benchmark::Confirm
 
+0.031   Sun Jun 23 20:15:02 JST 2013
+    [NO CODE CHANGES]
+        - support cpanfile
+
 0.03    Tue May 28 07:33:48 JST 2013
     [BUG FIX]
         - call import method with loading Test::More

@@ -14,27 +14,37 @@
    },
    "name" : "Benchmark-Confirm",
    "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Module::Build::Pluggable::CPANfile" : "0.04"
+         }
+      },
       "configure" : {
          "requires" : {
-            "Module::Build" : "0.38"
+            "Module::Build" : "0.40",
+            "Module::Build::Pluggable" : "0",
+            "Module::Build::Pluggable::CPANfile" : "0.04"
          }
       },
       "runtime" : {
          "requires" : {
             "Benchmark" : "1.051",
             "Test::More" : "0.88",
-            "perl" : "v5.8.1"
+            "perl" : "5.008005"
          }
       }
    },
    "provides" : {
       "Benchmark::Confirm" : {
          "file" : "lib/Benchmark/Confirm.pm",
-         "version" : "0.03"
+         "version" : "0.031"
       }
    },
    "release_status" : "stable",
    "resources" : {
+      "bugtracker" : {
+         "web" : "http://github.com/bayashi/Benchmark-Confirm/issues"
+      },
       "license" : [
          "http://dev.perl.org/licenses/"
       ],
@@ -42,5 +52,5 @@
          "url" : "http://github.com/bayashi/Benchmark-Confirm"
       }
    },
-   "version" : "0.03"
+   "version" : "0.031"
 }

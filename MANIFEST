@@ -1,7 +1,9 @@
 Build.PL
+LICENSE
 Changes
 lib/Benchmark/Confirm.pm
 Makefile.PL
+cpanfile
 MANIFEST			This list of files
 META.json
 META.yml

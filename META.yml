@@ -2,9 +2,12 @@
 abstract: 'take a Benchmark and confirm returned values'
 author:
   - 'Dai Okabayashi <bayashi@cpan.org>'
-build_requires: {}
+build_requires:
+  Module::Build::Pluggable::CPANfile: 0.04
 configure_requires:
-  Module::Build: 0.38
+  Module::Build: 0.40
+  Module::Build::Pluggable: 0
+  Module::Build::Pluggable::CPANfile: 0.04
 dynamic_config: 1
 generated_by: 'Module::Build version 0.4005, CPAN::Meta::Converter version 2.130880'
 license: perl
@@ -15,12 +18,13 @@ name: Benchmark-Confirm
 provides:
   Benchmark::Confirm:
     file: lib/Benchmark/Confirm.pm
-    version: 0.03
+    version: 0.031
 requires:
   Benchmark: 1.051
   Test::More: 0.88
-  perl: v5.8.1
+  perl: 5.008005
 resources:
+  bugtracker: http://github.com/bayashi/Benchmark-Confirm/issues
   license: http://dev.perl.org/licenses/
   repository: http://github.com/bayashi/Benchmark-Confirm
-version: 0.03
+version: 0.031
