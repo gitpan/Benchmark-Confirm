@@ -29,6 +29,7 @@
       "runtime" : {
          "requires" : {
             "Benchmark" : "1.051",
+            "IO::Capture::Stdout" : "0",
             "Test::More" : "0.88",
             "perl" : "5.008005"
          }
@@ -37,7 +38,7 @@
    "provides" : {
       "Benchmark::Confirm" : {
          "file" : "lib/Benchmark/Confirm.pm",
-         "version" : "0.031"
+         "version" : "0.04"
       }
    },
    "release_status" : "stable",
@@ -52,5 +53,5 @@
          "url" : "http://github.com/bayashi/Benchmark-Confirm"
       }
    },
-   "version" : "0.031"
+   "version" : "0.04"
 }

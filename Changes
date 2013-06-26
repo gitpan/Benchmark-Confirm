@@ -1,5 +1,13 @@
 Revision history for Perl extension Benchmark::Confirm
 
+0.04    Wed Jun 26 08:42:13 JST 2013
+    [NEW FEATURE]
+        - If you specify TAP option, the benchmark results are be valid TAP.
+        - If you specify no_plan option, you can add more tests with benchmarks.
+        Thank you, tobyink.
+    [ENHANCEMENT]
+        - removed the space which is no need
+
 0.031   Sun Jun 23 20:15:02 JST 2013
     [NO CODE CHANGES]
         - support cpanfile
